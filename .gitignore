@@ -1,0 +1,36 @@
+# Ignore Python-related files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.db
+
+# Ignore node_modules directory
+frontend/node_modules/
+
+# Ignore Docker-related files
+backend/__pycache__/
+backend/*.pyc
+backend/*.pyo
+backend/*.pyd
+backend/*.db
+
+# Ignore Docker build context
+backend/.docker/
+backend/Dockerfile
+
+# Ignore editor/IDE files
+.vscode/
+.idea/
+
+# Ignore compiled files
+*.pyc
+
+# Ignore logs
+*.log
+
+# Ignore environment files
+.env
+
+# Ignore database files
+backend/test.db
